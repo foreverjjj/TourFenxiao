@@ -14,6 +14,5 @@ namespace Model
         public Productline Productline { get; set; }
         public Enterprise EnterpriseParent { get; set; }
         public Enterprise EnterpriseChild { get; set; }
-        public int Level { get; set; }
     }
 }
