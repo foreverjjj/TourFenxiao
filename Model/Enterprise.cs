@@ -19,13 +19,13 @@ namespace Model
         /// </summary>
         public int Parent_Adminid { get; set; }
         /// <summary>
-        /// 商业父ID
-        /// </summary>
-        public int Parent_Tradeid { get; set; }
-        /// <summary>
         /// 名称
         /// </summary>
         public string Name { get; set; }
+        /// <summary>
+        /// 英文名称
+        /// </summary>
+        public string Ename { get; set; }
         /// <summary>
         /// 简介
         /// </summary>
