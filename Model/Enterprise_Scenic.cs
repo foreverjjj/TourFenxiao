@@ -19,6 +19,10 @@ namespace Model
         /// </summary>
         public string Name { get; set; }
         /// <summary>
+        /// 英文名称
+        /// </summary>
+        public string Ename { get; set; }
+        /// <summary>
         /// 简介
         /// </summary>
         public string Description { get; set; }
