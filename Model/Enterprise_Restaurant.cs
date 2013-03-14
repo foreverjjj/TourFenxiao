@@ -5,10 +5,7 @@ using System.Text;
 
 namespace Model
 {
-    /// <summary>
-    /// 机构（包括供应商、各级分销商）
-    /// </summary>
-    public class Enterprise
+    public class Enterprise_Restaurant
     {
         /// <summary>
         /// 主键ID
@@ -41,15 +38,15 @@ namespace Model
         /// <summary>
         /// 电子邮件
         /// </summary>
-        public string Email{get;set;}
+        public string Email { get; set; }
         /// <summary>
         /// 传真
         /// </summary>
-        public string Fax{get;set;}
+        public string Fax { get; set; }
         /// <summary>
         /// 网站
         /// </summary>
-        public string Website{get;set;}
+        public string Website { get; set; }
         /// <summary>
         /// 负责人
         /// </summary>
@@ -59,42 +56,40 @@ namespace Model
         /// </summary>
         public string Chargephone { get; set; }
         /// <summary>
-        /// 商业类型
+        /// 所属省份
         /// </summary>
-        public Etp_TradeType Etp_TradeType { get; set; }
+        public AreaProvince AreaProvince { get; set; }
         /// <summary>
-        /// 行政类型
+        /// 所属市区
         /// </summary>
-        public Etp_AdminType Etp_AdminType { get; set; }
+        public AreaCity AreaCity { get; set; }
         /// <summary>
-        /// 所属地区
+        /// 所属区县
         /// </summary>
-        public Area Area { get; set; }
+        public AreaDistict AreaDistict { get; set; }
+        /// <summary>
+        /// 省份（冗余字段）
+        /// </summary>
+        public string Province { get; set; }
+        /// <summary>
+        /// 城市（冗余字段）
+        /// </summary>
+        public string City { get; set; }
+        /// <summary>
+        /// 区域（冗余字段）
+        /// </summary>
+        public string Distict { get; set; }
+        /// <summary>
+        /// 商业街区
+        /// </summary>
+        public string BusinessZone { get; set; }
         /// <summary>
         /// 等级
         /// </summary>
-        public int Level { get; set; }
-
-    }
-
-    /// <summary>
-    /// 商业类型
-    /// </summary>
-    public enum Etp_TradeType
-    {
-        供应商,
-        分销商,
-    }
-
-    /// <summary>
-    /// 行政类型
-    /// </summary>
-    public enum Etp_AdminType
-    { 
-        管理部门,
-        景区,
-        旅行社,
-        住宿,
-        餐饮
+        public string Star { get; set; }
+        public string Category { get; set; }
+        public string Availpolicy { get; set; }
+        public string Position { get; set; }
+        public Brand Brand { get; set; }
     }
 }

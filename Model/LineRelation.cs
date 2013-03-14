@@ -17,7 +17,7 @@ namespace Model
         /// <summary>
         /// 产品
         /// </summary>
-        public Product Product { get; set; }
+        public Product_Room Product { get; set; }
         /// <summary>
         /// 产品线
         /// </summary>

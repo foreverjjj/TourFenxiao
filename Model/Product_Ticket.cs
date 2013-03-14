@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Model
 {
-    public class Product
+    public class Product_Ticket
     {
         /// <summary>
         /// ID
@@ -16,7 +16,7 @@ namespace Model
         /// </summary>
         public string Name { get; set; }
         /// <summary>
-        /// 英文名（seoname）
+        /// 英文名
         /// </summary>
         public string Ename { get; set; }
         /// <summary>

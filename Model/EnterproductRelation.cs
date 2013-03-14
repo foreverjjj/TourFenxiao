@@ -9,6 +9,6 @@ namespace Model
     {
         public int ID { get; set; }
         public Enterprise Enterprise { get; set; }
-        public Product Product { get; set; }
+        public Product_Room Product { get; set; }
     }
 }
