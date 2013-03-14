@@ -113,7 +113,7 @@ namespace Model
         /// <summary>
         ///产品
         /// </summary>
-        public Product_Room Product { get; set; }
+        public Product_Ticket Product_Ticket { get; set; }
         /// <summary>
         ///是否结算
         /// </summary>
@@ -135,7 +135,7 @@ namespace Model
         /// <summary>
         ///产品
         /// </summary>
-        public Product_Room Product { get; set; }
+        public Product_Ticket Product { get; set; }
         /// <summary>
         ///验票时间
         /// </summary>
