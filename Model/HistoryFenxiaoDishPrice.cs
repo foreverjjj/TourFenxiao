@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Model
 {
-    public class HistoryFenxiaoRestPrice
+    public class HistoryFenxiaoDishPrice
     {
         public int ID { get; set; }
         public Enterprise_Fenx Enterprise_Fenx { get; set; }

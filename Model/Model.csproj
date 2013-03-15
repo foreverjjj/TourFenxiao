@@ -40,15 +40,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Area.cs" />
+    <Compile Include="AreaBusinessZone.cs" />
+    <Compile Include="AreaCity.cs" />
+    <Compile Include="AreaDistict.cs" />
+    <Compile Include="AreaProvince.cs" />
+    <Compile Include="Brand.cs" />
     <Compile Include="Enterprise.cs" />
-    <Compile Include="EnterproductRelation.cs" />
-    <Compile Include="FenxRelation.cs" />
-    <Compile Include="LineRelation.cs" />
+    <Compile Include="Enterprise_Atractions.cs" />
+    <Compile Include="Enterprise_Fenx.cs" />
+    <Compile Include="Enterprise_Hotel.cs" />
+    <Compile Include="Enterprise_Restaurant.cs" />
+    <Compile Include="Enterprise_Scenic.cs" />
+    <Compile Include="FenxHotelOrigin.cs" />
+    <Compile Include="FenxHotelSub.cs" />
+    <Compile Include="FenxRestaurantOrigin.cs" />
+    <Compile Include="FenxRetaurantSub.cs" />
+    <Compile Include="FenxTicketOrigin.cs" />
+    <Compile Include="FenxTicketSub.cs" />
+    <Compile Include="HistoryFenxiaoDishPrice.cs" />
+    <Compile Include="HistoryFenxiaoHotelPrice.cs" />
+    <Compile Include="HistoryFenxiaoTicketPrice.cs" />
     <Compile Include="Members.cs" />
-    <Compile Include="Orders.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="Productline.cs" />
+    <Compile Include="Order_Ticket.cs" />
+    <Compile Include="Product_Dish.cs" />
+    <Compile Include="Product_Room.cs" />
+    <Compile Include="Product_Ticket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
